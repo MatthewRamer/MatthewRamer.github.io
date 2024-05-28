@@ -19,11 +19,12 @@ const Interests = () => {
       </motion.div>
       <motion.div className="section-container"  whileHover={{scale: 1.3, zIndex: 1}}>
         <div className="section">
-          <h2>Interests2</h2>
+          <h2>Dojo</h2>
           <div className="cat-image-container">
-      <img src="../../public/images/Cat.jpg" alt="Cat" className="cat-image" />
+      <img src="https://raw.githubusercontent.com/MatthewRamer/MatthewRamer.github.io/gh-pages/images/Cat.jpg"
+      alt="Cat" className="cat-image" style={{ maxWidth: '50%', height: 'auto' }}/>
           </div>
-          <p>Insert interests content here...</p>
+          <p>This should speak for itself.</p>
         </div>
       </motion.div>
       <motion.div className="section-container"  whileHover={{scale: 1.3, zIndex: 1}}>
