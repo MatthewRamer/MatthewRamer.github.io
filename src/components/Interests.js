@@ -29,8 +29,12 @@ const Interests = () => {
       </motion.div>
       <motion.div className="section-container"  whileHover={{scale: 1.3, zIndex: 1}}>
         <div className="section">
-          <h2>Interests3</h2>
-          <p>Insert interests content here...</p>
+          <h2>Hiking</h2>
+          <div className="hike-image-container">
+      <img src="https://raw.githubusercontent.com/MatthewRamer/MatthewRamer.github.io/master/public/images/Hike.jpg"
+      alt="Cat" className="cat-image" style={{ maxWidth: '90%', height: 'auto' }}/>
+          </div>
+          <p>I enjoy hiking mountains and exploring nature. This is a view of Grand Terrace and Riverside.</p>
         </div>
       </motion.div>
     </section>
