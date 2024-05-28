@@ -12,7 +12,7 @@ const AboutMe = () => {
           <p>I'm a 22-year-old senior at the University of California, Riverside, about to graduate with a bachelor's degree in computer science.
 I am from Orange County, where I graduated from Villa Park High School.
 Beyond school, I'm also an avid sports enthusiast, finding joy in playing basketball, volleyball, and tennis. I also enjoy hiking and game development.
-My most expensive hobby is my car, a manual 6-speed 2017 Subaru BRZ. Here is my <a href="https://raw.githubusercontent.com/MatthewRamer/MatthewRamer.github.io/3ce40bea3d8ea2a25605fbee09e7f02e1d4e9acb/old_resume.pdf" target="_blank" rel="noopener">resume.</a>
+My most expensive hobby is my car, a manual 6-speed 2017 Subaru BRZ. Here is my <a href="https://raw.githubusercontent.com/MatthewRamer/MatthewRamer.github.io/413862e646aadebbecfa43e3ef24022fb664a512/public/resume%20no%20address.pdf" target="_blank" rel="noreferrer">resume.</a>
 </p>
         </div>
       </motion.div>
