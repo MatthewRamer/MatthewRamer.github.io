@@ -6,6 +6,8 @@ Welcome to my professional website! This website serves as a portfolio showcasin
 
 This website is built using React and hosted on GitHub Pages. It also showcases functionality of Framer Motion.
 
+## Usage
+
 ### `npm start`
 
 Runs the website locally.\
