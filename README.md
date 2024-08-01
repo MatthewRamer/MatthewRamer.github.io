@@ -24,4 +24,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ### `npm run deploy`
 
-Deploys the current build to github pages branch. Will update [https://matthewramer.github.io/](website) with the next push.
+Deploys the current build to github pages branch. This will update [my website](https://matthewramer.github.io/) with the next push.
