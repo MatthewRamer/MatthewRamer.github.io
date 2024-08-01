@@ -11,7 +11,7 @@ This website is built using React and hosted on GitHub Pages. It also showcases 
 ### `npm start`
 
 Runs the website locally.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -24,4 +24,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ### `npm run deploy`
 
-Deploys the current build to github pages branch. This will update [my website](https://matthewramer.github.io/) with the next push.
+Deploys the current build to github pages branch. This will update <a href="https://matthewramer.github.io/" target="_blank">my website</a> with the next push.
