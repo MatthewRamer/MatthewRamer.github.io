@@ -18,7 +18,8 @@ const Hero = () => {
         <p className="hero-subtitle">
           By Matthew Ramer, <TypingText texts={texts} />
         </p>
-        <a href="#about-me" className="hero-button">Skip to about me section</a>
+        <a href={"/technical_resume_8_8_24_no_number.pdf"} className="hero-button" target="_blank" rel="noopener noreferrer">View My Resume</a>
+        {/* <a href="#about-me" className="hero-button">Skip to about me section</a> */}
       </div>
     </div>
   );

@@ -18,13 +18,28 @@
     background-color: rgba(0, 0, 0, 0.5);
   }
   
-  .section-container {
+  .bio-content {
+    display: flex;
+    align-items: center;
+    line-height: 1.6;
+  }
+
+  .bio-image {
+    width: 600px; /* Adjust size as needed */
+    height: 400px;
+    margin-right: 20px; /* Space between image and text */
+  }
+  
+  .bio-container {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 8px;
     margin-right: 5px;
     position: relative;
     top: 20%;
     display: inline-block;
+    max-width: 1000px;
+    max-height: 600px;
+    padding: 20px;
   }
 
   .section-container2 {

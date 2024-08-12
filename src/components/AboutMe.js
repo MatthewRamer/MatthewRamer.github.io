@@ -1,22 +1,25 @@
 import React from 'react';
 import './AboutMe.css';
-import { motion } from 'framer-motion';
 
 const AboutMe = () => {
   return (
     <section id="about-me" className="about-me">
       <div className="background-overlay"></div>
-      <motion.div className="section-container"  whileHover={{scale: 1.3, zIndex: 1}}>
+      <div className="bio-container">
         <div className="section">
           <h2>Biography</h2>
+          <div className="bio-content">
+          <img src={"/images/profile.jpg"} alt="Matthew Ramer" className="bio-image" />
           <p>I'm a 22-year-old senior at the University of California, Riverside, about to graduate with a bachelor's degree in computer science.
 I am from Orange County, where I graduated from Villa Park High School.
 Beyond school, I'm also an avid sports enthusiast, finding joy in playing basketball, volleyball, and tennis. I also enjoy hiking and game development.
-My most expensive hobby is my car, a manual 6-speed 2017 Subaru BRZ. Here is my <a href="https://raw.githubusercontent.com/MatthewRamer/MatthewRamer.github.io/413862e646aadebbecfa43e3ef24022fb664a512/public/resume%20no%20address.pdf" target="_blank" rel="noreferrer">resume.</a>
+My most expensive hobby is my car, a manual 6-speed 2017 Subaru BRZ.
 </p>
+          </div>
         </div>
-      </motion.div>
-      <motion.div className="section-container2"  whileHover={{scale: 1.3, zIndex: 1}}>
+      </div>
+
+      <div className="section-container2">
         <div className="section">
           <h2>Education/Skills</h2>
           <p><strong>Education:</strong><br />
@@ -44,8 +47,9 @@ My most expensive hobby is my car, a manual 6-speed 2017 Subaru BRZ. Here is my 
       - Computer Security<br />
       - Operating Systems<br /></p>
         </div>
-      </motion.div>
-      <motion.div className="section-container"  whileHover={{scale: 1.3, zIndex: 1}}>
+      </div>
+
+      {/* <div className="section-container">
         <div className="section">
           <h2>Experience</h2>
           <div>
@@ -73,7 +77,7 @@ My most expensive hobby is my car, a manual 6-speed 2017 Subaru BRZ. Here is my 
       </ul>
     </div>
         </div>
-      </motion.div>
+      </div> */}
     </section>
   );
 };
