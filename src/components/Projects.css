@@ -1,12 +1,13 @@
 .projects {
     padding: 60px 20px;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #0c0027;
+    color: #ffffff;
   }
   
   .projects h2 {
     text-align: center;
     margin-bottom: 40px;
+    font-size: 3em;
   }
   
   .projects-container {
@@ -21,7 +22,7 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    width: 300px;
+    width: 45%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
@@ -29,17 +30,19 @@
   .project-image {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     margin-bottom: 15px;
   }
   
   .project-title {
     font-size: 1.5em;
     margin-bottom: 10px;
+    color:black;
   }
   
   .project-description {
     margin-bottom: 15px;
+    color:black;
   }
   
   .project-link {
