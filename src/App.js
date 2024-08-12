@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
 import Interests from './components/Interests';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <div className="mainContent">
         <Hero />
+        <Resume />
         <AboutMe />
         <Interests />
       </div>
