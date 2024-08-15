@@ -12,6 +12,10 @@
     padding: 20px; /* Add padding to avoid touching edges */
     box-sizing: border-box; /* Ensure padding is included in width/height calculations */
     overflow: hidden; /* Prevent any overflow issues */
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../public/images/background.jpeg');
+    background-size: cover;
+    background-position: center;
   }
 
   .hero-overlay {
@@ -20,7 +24,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     width: 100vw; /* Ensure it covers the full viewport width */
     height: 100vh; /* Ensure it covers the full viewport height */
     z-index: 0;
