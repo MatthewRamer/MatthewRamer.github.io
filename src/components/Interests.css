@@ -1,5 +1,5 @@
 .interests {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('../../public/images/background3.jpg');
     background-size: cover;
     background-position: top;
@@ -52,3 +52,64 @@
     text-indent: 40px; /* Indent the first line of each paragraph */
     margin-bottom: 20px; /* Space between paragraphs */
   }
+
+  /* Tablet styles (for medium screens) */
+@media (max-width: 1024px) {
+  .section-container {
+      flex: 0 0 45%; /* 2 items per row on medium screens */
+      margin-top: 5%; /* Adjust top margin */
+  }
+
+  .interests h2 {
+      font-size: 2.5em; /* Decrease font size */
+  }
+
+  .interests h3 {
+      font-size: 1.7em; /* Decrease font size */
+  }
+
+  .interests p {
+      font-size: 1.1em; /* Adjust paragraph font size */
+  }
+}
+
+/* Mobile styles (for small screens) */
+@media (max-width: 768px) {
+  .section-container {
+      flex: 0 0 100%; /* Full width for each item */
+      margin-top: 5%;
+      padding: 15px; /* Reduce padding */
+  }
+
+  .interests h2 {
+      font-size: 2em; /* Further decrease font size */
+  }
+
+  .interests h3 {
+      font-size: 1.5em; /* Further decrease font size */
+  }
+
+  .interests p {
+      font-size: 1em; /* Adjust paragraph font size */
+  }
+}
+
+/* Extra small screens (very small devices) */
+@media (max-width: 480px) {
+  .section-container {
+      margin-top: 3%; /* Adjust margin */
+      padding: 10px; /* Further reduce padding */
+  }
+
+  .interests h2 {
+      font-size: 1.8em; /* Smallest font size for heading */
+  }
+
+  .interests h3 {
+      font-size: 1.3em; /* Smallest font size for subheading */
+  }
+
+  .interests p {
+      font-size: 0.9em; /* Smallest font size for paragraphs */
+  }
+}

@@ -1,5 +1,5 @@
 .about-me {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('../../public/images/background2.jpg');
     background-size: cover;
     background-position: bottom;
@@ -22,11 +22,13 @@
     display: flex;
     align-items: center;
     line-height: 1.6;
+    flex-wrap: wrap;
   }
 
   .bio-image {
-    width: 600px; /* Adjust size as needed */
-    height: 400px;
+    width: 100%;
+    max-width: 600px; /* Adjust size as needed */
+    height: auto;
     margin-right: 20px; /* Space between image and text */
     border-radius: 1%;
   }
@@ -64,6 +66,7 @@
     justify-content: space-around; /* Space out items evenly */
     align-items: center; /* Align items to the top */
     gap: 20px; /* Space between the containers */
+    flex-wrap: wrap;
   }
   
   
@@ -82,3 +85,44 @@
     margin: 0;
   }
   
+  @media (max-width: 1024px) {
+    .bio-container {
+        padding: 15px; /* Adjust padding */
+    }
+    .bio-text p {
+        font-size: 16px; /* Decrease font size for smaller screens */
+        text-indent: 20px; /* Adjust text indentation */
+        margin-bottom: 15px; /* Adjust space between paragraphs */
+    }
+    .section h2 {
+        font-size: 2rem; /* Adjust section header size */
+    }
+}
+
+@media (max-width: 768px) {
+    .bio-container {
+        padding: 10px;
+    }
+    .bio-text p {
+        font-size: 14px; /* Further decrease font size for mobile devices */
+        text-indent: 15px;
+        margin-bottom: 10px;
+    }
+    .section h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .bio-container {
+        padding: 8px;
+    }
+    .bio-text p {
+        font-size: 12px; /* Smallest font size for very small screens */
+        text-indent: 10px;
+        margin-bottom: 8px;
+    }
+    .section h2 {
+        font-size: 1.2rem;
+    }
+}
